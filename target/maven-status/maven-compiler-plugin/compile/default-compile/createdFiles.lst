@@ -1,0 +1,11 @@
+com/xiao/common/JacksonConfiguration.class
+com/xiao/common/JacksonConfiguration$NullDeserializer.class
+com/xiao/common/Result.class
+com/xiao/common/JacksonConfiguration$1.class
+com/xiao/controller/UploaderController.class
+com/xiao/domain/UploaderRepository.class
+com/xiao/common/SnowFlake.class
+com/xiao/pojo/UploadFile.class
+com/xiao/common/UploadUtil.class
+com/xiao/common/GlobalExceptionHandler.class
+com/xiao/FileUploadApplication.class

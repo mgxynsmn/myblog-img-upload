@@ -1,0 +1,24 @@
+server:
+  port: 8070
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://sh-cynosdbmysql-grp-oht7da36.sql.tencentcdb.com:28249/blog-img?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 962432174@mlmq
+
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+logging:
+  file:
+    name: /data/log/fileUploader/fileUploader.log
+  level:
+    com:
+      xiao: info
+
+
+img-dir: /data/file/
+img-download-url: https://littleshiba.cn/file/
